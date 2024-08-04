@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #212428;
+}
+/* Shared Style */
+.title-text{
+    font-size:3.5rem;
+    color:#C4CFDE;
+    font-weight: 600;;
+}
+.description-text{
+    color: #989ea8;
+    font-size:1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 25px;;
+}
+
+
+
+/* Nav */
+.nav-container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.navbar{
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 200px;; */
+    padding:20px 20px;
+}
+.nav-list{
+    display:flex;
+    gap:40px;
+    /* justify-content: space-between; */
+}
+.nav-list li {
+    list-style: none;
+    
+    gap:50px;
+}
+.fa-cart-shopping{
+    background-color: #1D2024;
+    box-shadow: -1px 1px solid #828994, 1px -1px solid #828994;
+    
+}
+.nav-list  a{
+    text-decoration: none;
+    color:#C4CFDE;
+}
+.nav-title-text{
+    color:#FF014F;
+    font-size:4rem;
+}
+.nav-list a:hover{
+    color:#FF014F;
+    transition: .5s;
+}
+.nav-btn{
+    padding:20px 20px;
+    background-color: #1F2125;
+    border-radius:8px;
+    box-shadow:-5px 2px 10px #292929, 5px -2px 20px rgb(12, 12, 12);
+   
+ 
+}
+.nav-button a{
+    color:#FF014F;
+}
+.nav-button:hover{
+    transform: translateY(-5px);
+    transition: transform 0.5s ease-in-out 0.1s;
+}
+/* Banner Section */
+.banner{
+    display:flex;
+    justify-content: center;
+    margin-top:100px;
+}
+.banner-container{
+    width:70%;
+    display:flex;
+    justify-content: space-between;
+}
+.banner-photo{
+    width:100%;
+}
+.banner-text-first-title{
+    color:#C4CFDE;
+    font-size:1.2rem;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom:20px;
+}
+.banner-title{
+    font-size:4.5rem;
+    color:#FFFFFF;
+    margin-bottom: 20px;
+    line-height:75px;;
+}
+.banner-text{
+    width:90%;
+    
+}
+.fahim{
+    color:#FF014F;
+}
+.banner-address{
+    font-size:3.7rem;
+}
+.banner-description{
+    color:#C4CFDE;
+    letter-spacing: 1px;;
+    margin-bottom:60px;
+}
+.banner-text a{
+    text-decoration: none;
+    color:#FF014F;
+}
+.banner-btn{
+    padding:20px 30px;
+    background-color: #1F2125;
+    border-radius:8px;
+    box-shadow:-5px 2px 10px #292929, 5px -2px 20px rgb(12, 12, 12);
+}
+.banner-button:hover{
+    transform: translateY(-5px);
+    transition: transform 0.5s ease-in-out 0.1s;
+}
+.banner-button{
+    width:140px;
+}
+
+/* About Section */
+.About-photography{
+    display:flex;
+    justify-content: center;
+    margin-top:100px;
+}
+.about-photo{
+    width:30%;
+}
