@@ -211,7 +211,6 @@ body {
 .about-button:hover{
     transform: translateY(-5px);
     transition: transform 0.5s ease-in-out 0.1s;
-    background-image: linear-gradient(to right, #0575E6 0%, #021B79  51%, #0575E6  100%);
     text-transform: uppercase;
      
      
@@ -246,7 +245,12 @@ body {
     width:70%;
 }
 .projects-text{
-    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* text-align: center; */
+    margin-top:100px;
+    margin-bottom:50px;
 }
 .projects-first-title{
     color:#FF014F;
@@ -257,4 +261,134 @@ body {
 }
 .projects-main-title{
     font-size:4.5rem;
+}
+.project-image-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 80px;
+    row-gap:30px;
+    margin-top:50px;
+}
+.project-photo{
+    width:100%;
+    height:90%;
+    border-radius: 10px;
+    background-color: #212428;
+    padding:20px 20px;
+    box-shadow:-5px 2px 10px #292929, 5px -2px 20px rgb(12, 12, 12);
+}
+.out5{
+    width:100%;
+    /* height:auto; */
+}
+.projects-button{
+    margin-top:25px;
+}
+.project-btn{
+    /* font-family:"Montserrat", sans-serif; */
+    letter-spacing: 2px;;
+}
+/* RECENT WORK PAGE */
+
+
+
+
+
+
+.recent-back-btn{
+
+}
+.banner-button a{
+    text-decoration: none;
+    color:#FF014F;
+}
+.recent-button{
+    margin-top:70px;
+}
+.recent-work{
+    display:flex;
+    justify-content: center;
+
+}
+.recent-work-container{
+    width:70%;
+}
+.recent-work-elements{
+    display:flex;
+    justify-content: center;
+    margin-top:10px;
+}
+.recent-work-elements-container{
+    width:70%;
+
+}
+.outdoor-text{
+    text-align: center;
+    color:#FFFFFF;
+    text-shadow: 1px 1px 5px #092326;
+}
+.outdoor-image-container{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:25px;
+    margin-top:50px;
+}
+.outdoor-image-container img{
+    border-radius: 10px;
+}
+.outdoor-photo{
+    width:100%;
+    /* padding:20px 10px; */
+    background-color: #212428;
+    border-radius: 10px;;
+    box-shadow:-5px 2px 10px #292929, 5px -2px 20px rgb(12, 12, 12);
+    /* border-radius: 10px;; */
+}
+
+
+.indoor{
+    display:flex;
+    justify-content: center;
+    margin-top:100px;
+}
+.indoor-container{
+    width:70%;
+}
+.indoor-text{
+    text-align: center;
+}
+#indoor3{
+    width:100%;
+    height:100%;
+}
+.wedding-image-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:35px;
+    margin-top:50px;
+}
+.photoshop-height{
+    width:100%;
+    height:100%;
+}
+.graphic-width{
+    width:100%;
+}
+.second-page-button{
+    display:flex;
+    justify-content:center;
+}
+.second-pg-btn{
+    width:70%;
+    justify-content: space-between;
+}
+#end{
+    display:flex;
+    justify-content: end;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.top-border{
+    border-top:1px solid black;
+    margin-top:50px;
 }
