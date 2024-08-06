@@ -484,5 +484,13 @@ body {
 }
 #bridge-image-container{
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+#doco30{
+    width:100%;
+    height:90%;
+}
+#doco17{
+    height:94%;
+
 }
